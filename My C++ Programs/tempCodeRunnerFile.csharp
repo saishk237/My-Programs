@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+class Shape
+{
+    public:
+        int x;
+        int y;
+}
+
+class Rectangle: public Shape
+{
+    public:
+    void read()
+    {
+        cout<<"Enter the Length: ";
+        cin>>x;
+        cout<<"Enter the Breadth: ";
+        cin>>y;
+    }
+    int Rect_Area()
+    {
+        int Area=x*y;
+        return Area;
+    }
+};
+
+class Circle: public Shape
+{
+    public:
+    void read()
+    {
+        cout<<"Enter the radius: ";
+        cin>>x;
+    }
+    int Circle_Area()
+    {
+        int Area=x*x*3.14;
+        return Area;
+    }
+};
+
+int main()
+{
+    int m, n, ch, ans;
+    Shape obj;
+    Rectangle Area1;
+    Circle Area2;
+    while(1)
+    [
+        cout<<"Menu"<<endl<<"1.Area of Rectangle"<<endl<<"2.Area of Circle"<<endl;
+        cout<<"Enter your choice: ";
+        cin>>ch;
+        switch(ch)
+        {
+            case1:
+                Area.read()
+                ans=Area1.Rect_Area();
+                cout<<ans<<endl;
+                break;
+            case2:
+                Area2.read();
+                ans=Area2.Circle_Area();
+                cout<<ans<<endl;
+                break;
+        }
+    ]
+}

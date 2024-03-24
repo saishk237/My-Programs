@@ -1,0 +1,389 @@
+// Write a C program to accept two integers and check whether they are equal or not.
+#include <stdio.h>
+int main()
+{
+int num1, num2;
+printf("Enter first integer no.: ");
+scanf("%d", &num1);
+printf("Enter second integer no.: ");
+scanf("%d", &num2);
+if(num1==num2)
+printf("\nEntered numbers are equal");
+else
+printf("\nEntered numbers are not equal");
+return 0;
+}
+
+// Write a C program to check whether a given number is even or odd
+#include <stdio.h>
+int main()
+{
+int num;
+printf("Enter a number: ");
+scanf("%d", &num);
+if(num%2==0)
+printf("%d is an even number",num);
+else
+printf("%d is an odd number",num);
+return 0;
+}
+
+// Write a C program to check whether a given number is positive or negative
+#include <stdio.h>
+int main()
+{
+int num;
+printf("Enter a number: ");
+scanf("%d", &num);
+if(num>0)
+printf("%d is a positive number");
+elseif(num==0)
+printf("%d is neither a positive nor a negative number");
+else
+printf("%d is a negative number");
+return 0;
+}
+
+// Write a C program to find whether a given year is a leap year or not
+#include <stdio.h>
+int main()
+{
+int year;
+printf("")
+scanf("%d");
+if(year%4==0)
+printf("%d was/will be a Leap year",year);
+else
+("Not a Leap Year");
+return;
+}
+
+// Write a C program to read the age of a candidate and determine whether it is eligible for casting his/her own vote
+#include <stdio.h>
+int main()
+{
+int age;
+printf("Enter candidates age: ");
+scanf("%d", &age);
+if(age>=18)
+printf("Eligible for Voting");
+else
+printf("Ineligible for Voting");
+return 0;
+}
+
+/* Write a C program to read the value of an integer m and display the value of n is 1 when m is larger than 0, 0 when m is 0 and -1 when m is less than 0. 
+Test Data : -5
+Expected Output : The value of n = -1 */
+
+#include <stdio.h>
+int main()
+{
+int m, n;
+printf("Enter value of integer m: ");
+scanf("%d", &m);
+if(m>0)
+n=1;
+printf("The value of n = %d",n);
+elseif(m<0)
+n=-1;
+printf("The value of n = %d",n);
+else
+n=0;
+printf("The value of n = %d",n);
+return 0;
+}
+
+// Write a C program to accept the height of a person in centimeter and categorize the person according to their height. 
+#include <stdio.h>
+int main()
+{
+float height;
+printf("Enter your height: ");
+scanf("%d", &height);
+i(height<=150)
+dwarf
+>=150 <=165
+average height
+>165 <=195
+taller
+>195
+Abnormal Height
+
+
+ 
+
+// Write a C program to find the largest of three numbers 
+
+// Write a C program to accept a coordinate point in a XY coordinate system and determine in which quadrant the coordinate point lies 
+
+
+// Write a program in C to display the first 10 natural numbers. Expected Output : 1 2 3 4 5 6 7 8 9 10
+#include <stdio.h>
+int main()
+{
+int i;
+for(i=1;i<=10;i++)
+{
+printf("%d ", i);
+}
+}
+
+
+
+ 
+// Write a C program to find the sum of first 10 natural numbers.
+#include <stdio.h>
+int main()
+{
+int sum=0,i;
+for(i=1;i<=10;i++)
+{
+sum=sum+i;
+}
+printf("Sum of first 10 natural numbers is %d", sum);
+}
+
+
+
+// Write a program in C to read 10 numbers from keyboard and find their sum and average
+
+#include <stdio.h>
+int main()
+{
+flo i,j,sum,avg;
+for(i=0;)
+printf("Enter ");
+}
+
+
+
+
+ 
+// Write a program in C to display the cube of the number upto given an integer 
+
+#include <stdio.h>
+int main()
+{
+
+}
+
+// Using conditional operators determine:
+(1) Whether the character entered through the keyboard is a lower case alphabet or not.
+(2) Whether a character entered through the keyboard is a special symbol or not.
+
+
+
+
+
+
+/* Any year is entered through the keyboard, write a program to determine whether the year is leap or not. 
+Use the logical operators && and ||. */
+
+
+
+
+
+
+
+
+/* Any character is entered through the keyboard, write a program to determine whether the character entered 
+is a capital letter, a small case letter, a digit or a special symbol.
+The following table shows the range of ASCII values for various characters.
+Characters
+ASCII Values
+A – Z              65 – 90
+a – z              97 – 122
+0 – 9              48 – 57
+special symbols    0 - 47, 58 - 64, 91 - 96, 123 - 127 */
+
+
+
+
+
+
+
+
+/* In Insurance company follows following rules to calculate premium.
+(1) If a person’s health is excellent and the person is between 25 and 35 years of age and lives in a city and 
+is a male then the premium is Rs. 4 per thousand and his policy amount cannot exceed Rs. 2 lakhs.
+(2) If a person satisfies all the above conditions except that the sex is female then the premium is Rs. 3 per 
+thousand and her policy amount cannot exceed Rs. 1 lakh.
+(3) If a person’s health is poor and the person is between 25 and 35 years of age and lives in a village and 
+is a male then the premium is Rs. 6 per thousand and his policy cannot exceed Rs. 10,000.
+(4) In all other cases the person is not insured.
+Write a program to output whether the person should be insured or not, his/her premium rate and maximum 
+amount for which he/she can be insured. */
+
+#include <stdio.h>
+int main()
+{
+return 0;
+}
+
+
+
+
+
+
+/* A certain grade of steel is graded according to the following conditions:
+(i) Hardness must be greater than 50
+(ii) Carbon content must be less than 0.7
+(iii) Tensile strength must be greater than 5600
+The grades are as follows:
+Grade is 10 if all three conditions are met
+Grade is 9 if conditions (i) and (ii) are met
+Grade is 8 if conditions (ii) and (iii) are met
+Grade is 7 if conditions (i) and (iii) are met
+Grade is 6 if only one condition is met
+Grade is 5 if none of the conditions are met
+Write a program, which will require the user to give values of hardness, carbon content and tensile strength of the 
+steel under consideration and output the grade of the steel. */
+
+#include <stdio.h>
+int main()
+{
+float hard,cc,ts;
+int grade; 
+printf("Enter the Hardness of the steel: ");
+scanf("%f", &);
+printf("Enter the Carbon content in the steel: ");
+scanf("%f", &cc);
+printf("Enter the Tensile strength of the steel: ");
+scanf("%f", &ts);
+
+if(hard>50 && cc<0.7 && ts>5600)
+grade = 10;
+else if(hard>50 && cc<0.7 && ts>5600)
+grade = 9;
+else if(hard>50 && cc<0.7 && ts>5600)
+grade = 8;
+else if(hard>50 && cc<0.7 && ts>5600)
+grade = 7;
+else if(hard>50 && cc<0.7 && ts>5600)
+grade = 6;
+else if(hard>150 && cc<0.7 && ts>5600)
+grade = 5;
+
+}
+
+
+
+
+
+/* A library charges a fine for every book returned late. For first 5 days the fine is 50 paise, for 6-10 days fine is 
+one rupee and above 10 days fine is 5 rupees. If you return the book after 30 days your membership will be cancelled. 
+Write a program to accept the number of days the member is late to return the book and display the fine or the appropriate message. */
+
+
+
+
+
+
+/* If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle 
+is valid or not. The triangle is valid if the sum of two sides is greater than the largest of the three sides. */
+
+include <stdio.h>
+int main()
+{
+float len1,len2,len3;
+printf("Enter Length of Side 1: ");
+scanf("%f", &len1);
+printf("Enter Length of Side 2: ");
+scanf("%f", &len2);
+printf("Enter Length of Side 1: ");
+scanf("%f", &len3);
+
+return 0;
+}
+
+
+
+
+
+/* If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle 
+is isosceles, equilateral, scalene or right angled triangle. */
+
+include <stdio.h>
+int main()
+{
+float len1,len2,len3;
+printf("Enter Length of Side 1: ");
+scanf("%f", &len1);
+printf("Enter Length of Side 2: ");
+scanf("%f", &len2);
+printf("Enter Length of Side 1: ");
+scanf("%f", &len3);
+
+return 0;
+}
+
+
+
+
+
+/* In a company, worker efficiency is determined on the basis of the time required for a worker to complete a 
+particular job. If the time taken by the worker is between 2 – 3 hours, then the worker is said to be highly efficient. 
+If the time required by the worker is between 3 – 4 hours, then the worker is ordered to improve speed. 
+If the time taken is between 4 – 5 hours, the worker is given training to improve his speed, and if the time taken by 
+the worker is more than 5 hours, then the worker has to leave the company. If the time taken by the worker is input through 
+the keyboard, find the efficiency of the worker. */
+
+include <stdio.h>
+int main()
+{
+printf("Enter the Time taken (in mins) by worker to complete the given job: ");
+scanf("%d", &);
+if()
+
+else if()
+
+else if()
+
+else
+
+return 0;
+}
+
+
+
+
+
+/* A university has the following rules for a student to qualify for a degree with A as the main subject and B as the subsidiary subject:
+(a) He should get 55 percent or more in A and 45 percent or more in B.
+(b) If he gets than 55 percent in A he should get 55 percent or more in B. However, he should get at least 45 percent in A.
+(c) If he gets less than 45 percent in B and 65 percent or more in A he is allowed to reappear in an examination in B to qualify.
+(d) In all other cases he is declared to have failed.
+Write a program to receive marks in A and B and Output whether the student has passed, failed or is allowed to reappear in B. */
+
+include <stdio.h>
+int main()
+{
+int marks_a, marks_b;
+printf("Enter marks in Subject A: ");
+scanf("%d", &marks_a);
+printf("Enter marks in Subject B: ");
+scanf("%d", &marks_b);
+if()
+else if()
+else if()
+else
+
+return 0;
+}
+
+
+
+
+
+/* The policy followed by a company to process customer orders is given by the following rules:
+(a) If a customer order is less than or equal to that in stock and has credit is OK, supply has requirement.
+(b) If has credit is not OK do not supply. Send him intimation.
+(c) If has credit is Ok but the item in stock is less than has order, supply what is in stock. Intimate to him data the balance will be shipped.
+Write a C program to implement the company policy. */
+
+#include <stdio.h>
+int main()
+{
+return 0;
+}
